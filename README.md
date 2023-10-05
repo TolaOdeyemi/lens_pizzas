@@ -85,13 +85,7 @@ Welcome to Len's Slice, your neighborhood pizza joint! In this Python project, w
 
 ## Interactive Input
 
-To make this code more interactive with the user and involves error handling, you can add an interactive section below the code. Here's a sample modification:
-
-```python
-try:
-    # Get user input for the number of £2 slices
-    num_slices_input = input("Enter the number of £2 slices: ")
-    num_slices = int(num_slices_input)
+To make this code more interactive with the user, I've added user input and make use of error handling.
     
     # Calculate the total cost for the specified number of £2 slices
     total_cost = num_slices * 2
